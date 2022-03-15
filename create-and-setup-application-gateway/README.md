@@ -33,7 +33,7 @@ For the sake of simplicity, this example uses a simple setup with a public front
 ![](../images/6-create-routing-rule.png)
 
 
-7. A routing rule requires a listener. We can configure Listener within the **Add routing rule** as shown in **Figure 7**. This listener will be the entry point for all request coming from Internet. It will listen on **Host name** which is azurespring-demo.acloudtechie.com .
+7. A routing rule requires a listener. We can configure Listener within the **Add routing rule** as shown in **Figure 7**. This listener will be the entry point for all request coming from Internet. It will listen on **Host name** which is <http://azurespring-demo.acloudtechie.com>.
 
 ![](../images/7-listener.png)
 
