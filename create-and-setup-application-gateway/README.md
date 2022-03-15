@@ -1,4 +1,5 @@
 ## Application Gateway with single Backend pool, routing rule, Listener and HTTP Settings.
+---
 For the sake of simplicity, this example uses a simple setup with a public front-end IP, a multi site listener to host a single site on this application gateway, an App service (function app) used for the backend pool, and a Path-Based request routing rule.
 
 1. Let's start creating **Application Gateway**. Notice the Tier which is set to "Standard V2". For WAF policy to work with Application Gateway, we need to set the Tier as WAF V2
@@ -58,3 +59,11 @@ For the sake of simplicity, this example uses a simple setup with a public front
 11. Validate, Review + Create
 
 ![](../images/11-validate-details.png)
+
+---
+
+## Thank You
+Thank you for reading!
+
+Follow me for more content at https://acloudtechie.com
+Let's Grow together! [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40zeeshanmcp12)](https://twitter.com/zeeshanmcp12)
