@@ -43,7 +43,7 @@ For the sake of simplicity, this example uses a simple setup with a public front
 ![](../images/8-configure-http-settings.png)
 
 
-9. This rule will be based on Path-Based which means "*" (wildcard) will be added here so it can support all APIs as the URL path. for example:
+9. Since our function app has three functions so adding Path based rules will help us to call APIs using URL we configured earlier in listener. for example:
    - **/api/foo**
    - **/api/bar**
    - **/api/baroof**
